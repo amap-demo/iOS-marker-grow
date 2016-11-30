@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199BCCD71DED3BB10082A797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BCCD61DED3BB10082A797 /* main.m */; };
+		199BCCDA1DED3BB10082A797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BCCD91DED3BB10082A797 /* AppDelegate.m */; };
+		199BCCDD1DED3BB10082A797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BCCDC1DED3BB10082A797 /* ViewController.m */; };
+		199BCCE01DED3BB10082A797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199BCCDE1DED3BB10082A797 /* Main.storyboard */; };
+		199BCCE21DED3BB10082A797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199BCCE11DED3BB10082A797 /* Assets.xcassets */; };
+		199BCCE51DED3BB10082A797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199BCCE31DED3BB10082A797 /* LaunchScreen.storyboard */; };
+		199BCCEE1DEE676A0082A797 /* growAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BCCED1DEE676A0082A797 /* growAnnotationView.m */; };
+		46F21FA185D6C4227F2B5742 /* libPods-iOS-marker-grow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB96096E499195B7A8B2F466 /* libPods-iOS-marker-grow.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-marker-grow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		199BCCD61DED3BB10082A797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199BCCD81DED3BB10082A797 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		199BCCD91DED3BB10082A797 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		199BCCDB1DED3BB10082A797 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		199BCCDC1DED3BB10082A797 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		199BCCDF1DED3BB10082A797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		199BCCE11DED3BB10082A797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199BCCE41DED3BB10082A797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		199BCCE61DED3BB10082A797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199BCCEC1DEE676A0082A797 /* growAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = growAnnotationView.h; sourceTree = "<group>"; };
+		199BCCED1DEE676A0082A797 /* growAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = growAnnotationView.m; sourceTree = "<group>"; };
+		41F29CF8D72503C9DC5CAB22 /* Pods-iOS-marker-grow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow.release.xcconfig"; sourceTree = "<group>"; };
+		A798A8EC4B596E6BC61E48F8 /* Pods-iOS-marker-grow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow.debug.xcconfig"; sourceTree = "<group>"; };
+		EB96096E499195B7A8B2F466 /* libPods-iOS-marker-grow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-marker-grow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199BCCCF1DED3BB10082A797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F21FA185D6C4227F2B5742 /* libPods-iOS-marker-grow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199BCCC91DED3BB10082A797 = {
+			isa = PBXGroup;
+			children = (
+				199BCCD41DED3BB10082A797 /* iOS-marker-grow */,
+				199BCCD31DED3BB10082A797 /* Products */,
+				6AF7A874430FDC7B7C7177E6 /* Pods */,
+				6E0B3E2A3B84211E0E665118 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		199BCCD31DED3BB10082A797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199BCCD41DED3BB10082A797 /* iOS-marker-grow */ = {
+			isa = PBXGroup;
+			children = (
+				199BCCD81DED3BB10082A797 /* AppDelegate.h */,
+				199BCCD91DED3BB10082A797 /* AppDelegate.m */,
+				199BCCDB1DED3BB10082A797 /* ViewController.h */,
+				199BCCDC1DED3BB10082A797 /* ViewController.m */,
+				199BCCEC1DEE676A0082A797 /* growAnnotationView.h */,
+				199BCCED1DEE676A0082A797 /* growAnnotationView.m */,
+				199BCCDE1DED3BB10082A797 /* Main.storyboard */,
+				199BCCE11DED3BB10082A797 /* Assets.xcassets */,
+				199BCCE31DED3BB10082A797 /* LaunchScreen.storyboard */,
+				199BCCE61DED3BB10082A797 /* Info.plist */,
+				199BCCD51DED3BB10082A797 /* Supporting Files */,
+			);
+			path = "iOS-marker-grow";
+			sourceTree = "<group>";
+		};
+		199BCCD51DED3BB10082A797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199BCCD61DED3BB10082A797 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AF7A874430FDC7B7C7177E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A798A8EC4B596E6BC61E48F8 /* Pods-iOS-marker-grow.debug.xcconfig */,
+				41F29CF8D72503C9DC5CAB22 /* Pods-iOS-marker-grow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E0B3E2A3B84211E0E665118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB96096E499195B7A8B2F466 /* libPods-iOS-marker-grow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199BCCD11DED3BB10082A797 /* iOS-marker-grow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199BCCE91DED3BB10082A797 /* Build configuration list for PBXNativeTarget "iOS-marker-grow" */;
+			buildPhases = (
+				D85EB93170B04568EBB725E1 /* [CP] Check Pods Manifest.lock */,
+				199BCCCE1DED3BB10082A797 /* Sources */,
+				199BCCCF1DED3BB10082A797 /* Frameworks */,
+				199BCCD01DED3BB10082A797 /* Resources */,
+				1997785C7ED08F783BB246A7 /* [CP] Embed Pods Frameworks */,
+				D1DFED893784A47002E7954C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-marker-grow";
+			productName = "iOS-marker-grow";
+			productReference = 199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199BCCCA1DED3BB10082A797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Autonavi;
+				TargetAttributes = {
+					199BCCD11DED3BB10082A797 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 199BCCCD1DED3BB10082A797 /* Build configuration list for PBXProject "iOS-marker-grow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199BCCC91DED3BB10082A797;
+			productRefGroup = 199BCCD31DED3BB10082A797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199BCCD11DED3BB10082A797 /* iOS-marker-grow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199BCCD01DED3BB10082A797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199BCCE51DED3BB10082A797 /* LaunchScreen.storyboard in Resources */,
+				199BCCE21DED3BB10082A797 /* Assets.xcassets in Resources */,
+				199BCCE01DED3BB10082A797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1997785C7ED08F783BB246A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DFED893784A47002E7954C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D85EB93170B04568EBB725E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199BCCCE1DED3BB10082A797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199BCCDD1DED3BB10082A797 /* ViewController.m in Sources */,
+				199BCCEE1DEE676A0082A797 /* growAnnotationView.m in Sources */,
+				199BCCDA1DED3BB10082A797 /* AppDelegate.m in Sources */,
+				199BCCD71DED3BB10082A797 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		199BCCDE1DED3BB10082A797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199BCCDF1DED3BB10082A797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		199BCCE31DED3BB10082A797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199BCCE41DED3BB10082A797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199BCCE71DED3BB10082A797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199BCCE81DED3BB10082A797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199BCCEA1DED3BB10082A797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A798A8EC4B596E6BC61E48F8 /* Pods-iOS-marker-grow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "iOS-marker-grow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-grow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		199BCCEB1DED3BB10082A797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F29CF8D72503C9DC5CAB22 /* Pods-iOS-marker-grow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "iOS-marker-grow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-grow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199BCCCD1DED3BB10082A797 /* Build configuration list for PBXProject "iOS-marker-grow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199BCCE71DED3BB10082A797 /* Debug */,
+				199BCCE81DED3BB10082A797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199BCCE91DED3BB10082A797 /* Build configuration list for PBXNativeTarget "iOS-marker-grow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199BCCEA1DED3BB10082A797 /* Debug */,
+				199BCCEB1DED3BB10082A797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199BCCCA1DED3BB10082A797 /* Project object */;
+}
