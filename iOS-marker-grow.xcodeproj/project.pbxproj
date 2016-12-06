@@ -15,6 +15,13 @@
 		199BCCE51DED3BB10082A797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199BCCE31DED3BB10082A797 /* LaunchScreen.storyboard */; };
 		199BCCEE1DEE676A0082A797 /* growAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BCCED1DEE676A0082A797 /* growAnnotationView.m */; };
 		46F21FA185D6C4227F2B5742 /* libPods-iOS-marker-grow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB96096E499195B7A8B2F466 /* libPods-iOS-marker-grow.a */; };
+		95674EA76F1C4EC2B0CB4C11 /* libPods-iOS-marker-grow-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370A63C657FD511560C5C8F /* libPods-iOS-marker-grow-swift.a */; };
+		B69FC3351DF68D41009DE65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC3341DF68D41009DE65B /* AppDelegate.swift */; };
+		B69FC3371DF68D41009DE65B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC3361DF68D41009DE65B /* ViewController.swift */; };
+		B69FC33A1DF68D41009DE65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69FC3381DF68D41009DE65B /* Main.storyboard */; };
+		B69FC33C1DF68D41009DE65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69FC33B1DF68D41009DE65B /* Assets.xcassets */; };
+		B69FC33F1DF68D41009DE65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69FC33D1DF68D41009DE65B /* LaunchScreen.storyboard */; };
+		B69FC3481DF693D0009DE65B /* growAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC3471DF693D0009DE65B /* growAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +38,19 @@
 		199BCCEC1DEE676A0082A797 /* growAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = growAnnotationView.h; sourceTree = "<group>"; };
 		199BCCED1DEE676A0082A797 /* growAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = growAnnotationView.m; sourceTree = "<group>"; };
 		41F29CF8D72503C9DC5CAB22 /* Pods-iOS-marker-grow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow.release.xcconfig"; sourceTree = "<group>"; };
+		4370A63C657FD511560C5C8F /* libPods-iOS-marker-grow-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-marker-grow-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94468AAD0EE9A242477AA138 /* Pods-iOS-marker-grow-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift.release.xcconfig"; sourceTree = "<group>"; };
 		A798A8EC4B596E6BC61E48F8 /* Pods-iOS-marker-grow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow.debug.xcconfig"; sourceTree = "<group>"; };
+		B25C10CA4575D80966A0B9F8 /* Pods-iOS-marker-grow-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B69FC3321DF68D40009DE65B /* iOS-marker-grow-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-marker-grow-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69FC3341DF68D41009DE65B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B69FC3361DF68D41009DE65B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B69FC3391DF68D41009DE65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B69FC33B1DF68D41009DE65B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B69FC33E1DF68D41009DE65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B69FC3401DF68D41009DE65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69FC3461DF68E83009DE65B /* iOS_marker_grow_swift_bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS_marker_grow_swift_bridge.h; sourceTree = "<group>"; };
+		B69FC3471DF693D0009DE65B /* growAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = growAnnotationView.swift; sourceTree = "<group>"; };
 		EB96096E499195B7A8B2F466 /* libPods-iOS-marker-grow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-marker-grow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -44,6 +63,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B69FC32F1DF68D40009DE65B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95674EA76F1C4EC2B0CB4C11 /* libPods-iOS-marker-grow-swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				199BCCD41DED3BB10082A797 /* iOS-marker-grow */,
+				B69FC3331DF68D41009DE65B /* iOS-marker-grow-swift */,
 				199BCCD31DED3BB10082A797 /* Products */,
 				6AF7A874430FDC7B7C7177E6 /* Pods */,
 				6E0B3E2A3B84211E0E665118 /* Frameworks */,
@@ -61,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */,
+				B69FC3321DF68D40009DE65B /* iOS-marker-grow-swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +125,8 @@
 			children = (
 				A798A8EC4B596E6BC61E48F8 /* Pods-iOS-marker-grow.debug.xcconfig */,
 				41F29CF8D72503C9DC5CAB22 /* Pods-iOS-marker-grow.release.xcconfig */,
+				B25C10CA4575D80966A0B9F8 /* Pods-iOS-marker-grow-swift.debug.xcconfig */,
+				94468AAD0EE9A242477AA138 /* Pods-iOS-marker-grow-swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,8 +135,24 @@
 			isa = PBXGroup;
 			children = (
 				EB96096E499195B7A8B2F466 /* libPods-iOS-marker-grow.a */,
+				4370A63C657FD511560C5C8F /* libPods-iOS-marker-grow-swift.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B69FC3331DF68D41009DE65B /* iOS-marker-grow-swift */ = {
+			isa = PBXGroup;
+			children = (
+				B69FC3341DF68D41009DE65B /* AppDelegate.swift */,
+				B69FC3361DF68D41009DE65B /* ViewController.swift */,
+				B69FC3381DF68D41009DE65B /* Main.storyboard */,
+				B69FC33B1DF68D41009DE65B /* Assets.xcassets */,
+				B69FC33D1DF68D41009DE65B /* LaunchScreen.storyboard */,
+				B69FC3401DF68D41009DE65B /* Info.plist */,
+				B69FC3461DF68E83009DE65B /* iOS_marker_grow_swift_bridge.h */,
+				B69FC3471DF693D0009DE65B /* growAnnotationView.swift */,
+			);
+			path = "iOS-marker-grow-swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,17 +178,44 @@
 			productReference = 199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B69FC3311DF68D40009DE65B /* iOS-marker-grow-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B69FC3411DF68D41009DE65B /* Build configuration list for PBXNativeTarget "iOS-marker-grow-swift" */;
+			buildPhases = (
+				AD9070F20E31A26D540430C4 /* [CP] Check Pods Manifest.lock */,
+				B69FC32E1DF68D40009DE65B /* Sources */,
+				B69FC32F1DF68D40009DE65B /* Frameworks */,
+				B69FC3301DF68D40009DE65B /* Resources */,
+				22106D8D5156A95D2362A139 /* [CP] Embed Pods Frameworks */,
+				DC4B293038174EF90C4F3922 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-marker-grow-swift";
+			productName = "iOS-marker-grow-swift";
+			productReference = B69FC3321DF68D40009DE65B /* iOS-marker-grow-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		199BCCCA1DED3BB10082A797 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Autonavi;
 				TargetAttributes = {
 					199BCCD11DED3BB10082A797 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Automatic;
+					};
+					B69FC3311DF68D40009DE65B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -160,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				199BCCD11DED3BB10082A797 /* iOS-marker-grow */,
+				B69FC3311DF68D40009DE65B /* iOS-marker-grow-swift */,
 			);
 		};
 /* End PBXProject section */
@@ -172,6 +247,16 @@
 				199BCCE51DED3BB10082A797 /* LaunchScreen.storyboard in Resources */,
 				199BCCE21DED3BB10082A797 /* Assets.xcassets in Resources */,
 				199BCCE01DED3BB10082A797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69FC3301DF68D40009DE65B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69FC33F1DF68D41009DE65B /* LaunchScreen.storyboard in Resources */,
+				B69FC33C1DF68D41009DE65B /* Assets.xcassets in Resources */,
+				B69FC33A1DF68D41009DE65B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +276,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22106D8D5156A95D2362A139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9070F20E31A26D540430C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D1DFED893784A47002E7954C /* [CP] Copy Pods Resources */ = {
@@ -220,7 +335,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4B293038174EF90C4F3922 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -234,6 +364,16 @@
 				199BCCEE1DEE676A0082A797 /* growAnnotationView.m in Sources */,
 				199BCCDA1DED3BB10082A797 /* AppDelegate.m in Sources */,
 				199BCCD71DED3BB10082A797 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B69FC32E1DF68D40009DE65B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69FC3371DF68D41009DE65B /* ViewController.swift in Sources */,
+				B69FC3481DF693D0009DE65B /* growAnnotationView.swift in Sources */,
+				B69FC3351DF68D41009DE65B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +392,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				199BCCE41DED3BB10082A797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B69FC3381DF68D41009DE65B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69FC3391DF68D41009DE65B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B69FC33D1DF68D41009DE65B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69FC33E1DF68D41009DE65B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -354,7 +510,7 @@
 			baseConfigurationReference = A798A8EC4B596E6BC61E48F8 /* Pods-iOS-marker-grow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YMJ372W38W;
 				INFOPLIST_FILE = "iOS-marker-grow/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-grow";
@@ -367,11 +523,46 @@
 			baseConfigurationReference = 41F29CF8D72503C9DC5CAB22 /* Pods-iOS-marker-grow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = YMJ372W38W;
 				INFOPLIST_FILE = "iOS-marker-grow/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-grow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B69FC3421DF68D41009DE65B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25C10CA4575D80966A0B9F8 /* Pods-iOS-marker-grow-swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-marker-grow-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-grow-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./iOS-marker-grow-swift/iOS_marker_grow_swift_bridge.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B69FC3431DF68D41009DE65B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94468AAD0EE9A242477AA138 /* Pods-iOS-marker-grow-swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-marker-grow-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-grow-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./iOS-marker-grow-swift/iOS_marker_grow_swift_bridge.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -392,6 +583,15 @@
 			buildConfigurations = (
 				199BCCEA1DED3BB10082A797 /* Debug */,
 				199BCCEB1DED3BB10082A797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B69FC3411DF68D41009DE65B /* Build configuration list for PBXNativeTarget "iOS-marker-grow-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B69FC3421DF68D41009DE65B /* Debug */,
+				B69FC3431DF68D41009DE65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
