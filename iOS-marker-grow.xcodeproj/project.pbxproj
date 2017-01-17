@@ -15,6 +15,7 @@
 		199BCCE51DED3BB10082A797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199BCCE31DED3BB10082A797 /* LaunchScreen.storyboard */; };
 		199BCCEE1DEE676A0082A797 /* growAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BCCED1DEE676A0082A797 /* growAnnotationView.m */; };
 		46F21FA185D6C4227F2B5742 /* libPods-iOS-marker-grow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB96096E499195B7A8B2F466 /* libPods-iOS-marker-grow.a */; };
+		6AA29A8F1E2E1EA400C70842 /* iOS_marker_growUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA29A8E1E2E1EA400C70842 /* iOS_marker_growUITests.m */; };
 		95674EA76F1C4EC2B0CB4C11 /* libPods-iOS-marker-grow-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370A63C657FD511560C5C8F /* libPods-iOS-marker-grow-swift.a */; };
 		B69FC3351DF68D41009DE65B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC3341DF68D41009DE65B /* AppDelegate.swift */; };
 		B69FC3371DF68D41009DE65B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC3361DF68D41009DE65B /* ViewController.swift */; };
@@ -23,6 +24,16 @@
 		B69FC33F1DF68D41009DE65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69FC33D1DF68D41009DE65B /* LaunchScreen.storyboard */; };
 		B69FC3481DF693D0009DE65B /* growAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69FC3471DF693D0009DE65B /* growAnnotationView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AA29A911E2E1EA400C70842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199BCCCA1DED3BB10082A797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199BCCD11DED3BB10082A797;
+			remoteInfo = "iOS-marker-grow";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-marker-grow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +50,9 @@
 		199BCCED1DEE676A0082A797 /* growAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = growAnnotationView.m; sourceTree = "<group>"; };
 		41F29CF8D72503C9DC5CAB22 /* Pods-iOS-marker-grow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow.release.xcconfig"; sourceTree = "<group>"; };
 		4370A63C657FD511560C5C8F /* libPods-iOS-marker-grow-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-marker-grow-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA29A8C1E2E1EA400C70842 /* iOS-marker-growUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-marker-growUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA29A8E1E2E1EA400C70842 /* iOS_marker_growUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_marker_growUITests.m; sourceTree = "<group>"; };
+		6AA29A901E2E1EA400C70842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94468AAD0EE9A242477AA138 /* Pods-iOS-marker-grow-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift.release.xcconfig"; sourceTree = "<group>"; };
 		A798A8EC4B596E6BC61E48F8 /* Pods-iOS-marker-grow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow.debug.xcconfig"; sourceTree = "<group>"; };
 		B25C10CA4575D80966A0B9F8 /* Pods-iOS-marker-grow-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-marker-grow-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +77,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6AA29A891E2E1EA400C70842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B69FC32F1DF68D40009DE65B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -79,6 +100,7 @@
 			children = (
 				199BCCD41DED3BB10082A797 /* iOS-marker-grow */,
 				B69FC3331DF68D41009DE65B /* iOS-marker-grow-swift */,
+				6AA29A8D1E2E1EA400C70842 /* iOS-marker-growUITests */,
 				199BCCD31DED3BB10082A797 /* Products */,
 				6AF7A874430FDC7B7C7177E6 /* Pods */,
 				6E0B3E2A3B84211E0E665118 /* Frameworks */,
@@ -90,6 +112,7 @@
 			children = (
 				199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */,
 				B69FC3321DF68D40009DE65B /* iOS-marker-grow-swift.app */,
+				6AA29A8C1E2E1EA400C70842 /* iOS-marker-growUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +141,15 @@
 				199BCCD61DED3BB10082A797 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AA29A8D1E2E1EA400C70842 /* iOS-marker-growUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6AA29A8E1E2E1EA400C70842 /* iOS_marker_growUITests.m */,
+				6AA29A901E2E1EA400C70842 /* Info.plist */,
+			);
+			path = "iOS-marker-growUITests";
 			sourceTree = "<group>";
 		};
 		6AF7A874430FDC7B7C7177E6 /* Pods */ = {
@@ -178,6 +210,24 @@
 			productReference = 199BCCD21DED3BB10082A797 /* iOS-marker-grow.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6AA29A8B1E2E1EA400C70842 /* iOS-marker-growUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA29A931E2E1EA400C70842 /* Build configuration list for PBXNativeTarget "iOS-marker-growUITests" */;
+			buildPhases = (
+				6AA29A881E2E1EA400C70842 /* Sources */,
+				6AA29A891E2E1EA400C70842 /* Frameworks */,
+				6AA29A8A1E2E1EA400C70842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AA29A921E2E1EA400C70842 /* PBXTargetDependency */,
+			);
+			name = "iOS-marker-growUITests";
+			productName = "iOS-marker-growUITests";
+			productReference = 6AA29A8C1E2E1EA400C70842 /* iOS-marker-growUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B69FC3311DF68D40009DE65B /* iOS-marker-grow-swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B69FC3411DF68D41009DE65B /* Build configuration list for PBXNativeTarget "iOS-marker-grow-swift" */;
@@ -213,6 +263,12 @@
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
+					6AA29A8B1E2E1EA400C70842 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						TestTargetID = 199BCCD11DED3BB10082A797;
+					};
 					B69FC3311DF68D40009DE65B = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = YMJ372W38W;
@@ -235,6 +291,7 @@
 			targets = (
 				199BCCD11DED3BB10082A797 /* iOS-marker-grow */,
 				B69FC3311DF68D40009DE65B /* iOS-marker-grow-swift */,
+				6AA29A8B1E2E1EA400C70842 /* iOS-marker-growUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +304,13 @@
 				199BCCE51DED3BB10082A797 /* LaunchScreen.storyboard in Resources */,
 				199BCCE21DED3BB10082A797 /* Assets.xcassets in Resources */,
 				199BCCE01DED3BB10082A797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA29A8A1E2E1EA400C70842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +431,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6AA29A881E2E1EA400C70842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA29A8F1E2E1EA400C70842 /* iOS_marker_growUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B69FC32E1DF68D40009DE65B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +450,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AA29A921E2E1EA400C70842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199BCCD11DED3BB10082A797 /* iOS-marker-grow */;
+			targetProxy = 6AA29A911E2E1EA400C70842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		199BCCDE1DED3BB10082A797 /* Main.storyboard */ = {
@@ -538,6 +618,38 @@
 			};
 			name = Release;
 		};
+		6AA29A941E2E1EA400C70842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-marker-growUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-growUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b821a78-8ad6-4cf7-b6b0-31b43df04bbe";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = "iOS-marker-grow";
+			};
+			name = Debug;
+		};
+		6AA29A951E2E1EA400C70842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-marker-growUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-marker-growUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b821a78-8ad6-4cf7-b6b0-31b43df04bbe";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = "iOS-marker-grow";
+			};
+			name = Release;
+		};
 		B69FC3421DF68D41009DE65B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B25C10CA4575D80966A0B9F8 /* Pods-iOS-marker-grow-swift.debug.xcconfig */;
@@ -598,6 +710,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6AA29A931E2E1EA400C70842 /* Build configuration list for PBXNativeTarget "iOS-marker-growUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA29A941E2E1EA400C70842 /* Debug */,
+				6AA29A951E2E1EA400C70842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		B69FC3411DF68D41009DE65B /* Build configuration list for PBXNativeTarget "iOS-marker-grow-swift" */ = {
 			isa = XCConfigurationList;
