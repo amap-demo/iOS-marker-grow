@@ -24,7 +24,7 @@ class growAnnotationView: MAAnnotationView, CAAnimationDelegate {
         if(newSuperview?.bounds.contains(self.center))! {
             let growAnimation = CABasicAnimation.init(keyPath: "transform.scale")
             growAnimation.delegate = self
-            growAnimation.duration = 1.5;
+            growAnimation.duration = 0.5;
             growAnimation.timingFunction = CAMediaTimingFunction.init(name: kCAMediaTimingFunctionLinear)
             growAnimation.fromValue = 0
             growAnimation.toValue = 1.0

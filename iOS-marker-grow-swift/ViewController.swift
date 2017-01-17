@@ -16,15 +16,20 @@ class ViewController: UIViewController, MAMapViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.mapView = MAMapView.init(frame: self.view.bounds)
-        self.mapView.autoresizingMask = [UIViewAutoresizing.flexibleHeight, UIViewAutoresizing.flexibleWidth]
+        self.mapView = MAMapView(frame: self.view.bounds)
         self.mapView.delegate = self
-        self.mapView.centerCoordinate = CLLocationCoordinate2DMake(39.916049, 116.399792)
+        
         self.view.addSubview(self.mapView)
         
-        let annotation = MAPointAnnotation.init()
-        annotation.coordinate = CLLocationCoordinate2DMake(39.916049, 116.399792)
-        self.mapView.addAnnotation(annotation)
+        let button = UIButton(frame: CGRect(x: CGFloat(10), y: CGFloat(100), width: CGFloat(120), height: CGFloat(32)))
+        button.backgroundColor = UIColor.white
+        button.layer.borderWidth = 1.0
+        button.titleLabel?.font = UIFont.systemFont(ofSize: CGFloat(12))
+        button.layer.borderColor = UIColor.red.cgColor
+        button.setTitleColor(UIColor.red, for: .normal)
+        button.setTitle("addAnnotation", for: .normal)
+        button.addTarget(self, action: #selector(self.actionAddAnnotation), for: .touchUpInside)
+        self.view.addSubview(button)
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,20 +37,32 @@ class ViewController: UIViewController, MAMapViewDelegate {
         // Dispose of any resources that can be recreated.
     }
 
+    func actionAddAnnotation() {
+        var randomPoint = CGPoint.zero
+        randomPoint.x = CGFloat(Int(arc4random()) % Int(self.view.bounds.width - 100))
+        randomPoint.y = CGFloat(Int(arc4random()) % Int(self.view.bounds.height - 200))
+        let randomCoordinate: CLLocationCoordinate2D = mapView.convert(randomPoint, toCoordinateFrom: self.view)
+        let annotation = MAPointAnnotation()
+        annotation.coordinate = randomCoordinate
+        mapView.addAnnotation(annotation)
+    }
+    
     //-MARK: mapview delegate
     
     func mapView(_ mapView: MAMapView!, viewFor annotation: MAAnnotation!) -> MAAnnotationView! {
         if(annotation.isKind(of: MAPointAnnotation.self)) {
             let reuseIdentifier = "yourReuseIdentifier"
-            var view:growAnnotationView! = mapView.dequeueReusableAnnotationView(withIdentifier: reuseIdentifier) as! growAnnotationView!
+            var annotationView:growAnnotationView! = mapView.dequeueReusableAnnotationView(withIdentifier: reuseIdentifier) as! growAnnotationView!
             
-            if(view == nil) {
-                view = growAnnotationView.init(annotation: annotation, reuseIdentifier: "yourReuseIdentifier")
+            if(annotationView == nil) {
+                annotationView = growAnnotationView.init(annotation: annotation, reuseIdentifier: "yourReuseIdentifier")
+                
+                annotationView.image = UIImage(named: "CYAN")
+                annotationView.centerOffset = CGPoint(x: 0, y: -(annotationView.image.size.height / 2.0))
             }
             
-            view.image = UIImage.init(named: "CYAN")
             
-            return view
+            return annotationView
         }
         
         return nil
