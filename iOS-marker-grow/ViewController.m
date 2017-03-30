@@ -47,6 +47,7 @@
     
     _mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
     _mapView.delegate = self;
+    _mapView.allowsAnnotationViewSorting = NO;
     
     [self.view addSubview:_mapView];
     

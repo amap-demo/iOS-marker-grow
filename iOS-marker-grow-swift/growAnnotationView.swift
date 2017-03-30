@@ -20,6 +20,9 @@ class growAnnotationView: MAAnnotationView, CAAnimationDelegate {
     
     override func willMove(toSuperview newSuperview: UIView?) {
         super.willMove(toSuperview: newSuperview)
+        if(newSuperview == nil) {
+            return;
+        }
         
         if(newSuperview?.bounds.contains(self.center))! {
             let growAnimation = CABasicAnimation.init(keyPath: "transform.scale")

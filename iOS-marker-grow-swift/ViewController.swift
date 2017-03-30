@@ -18,6 +18,7 @@ class ViewController: UIViewController, MAMapViewDelegate {
         
         self.mapView = MAMapView(frame: self.view.bounds)
         self.mapView.delegate = self
+        self.mapView.allowsAnnotationViewSorting = false
         
         self.view.addSubview(self.mapView)
         
