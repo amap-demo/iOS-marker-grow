@@ -198,7 +198,6 @@
 				199BCCCE1DED3BB10082A797 /* Sources */,
 				199BCCCF1DED3BB10082A797 /* Frameworks */,
 				199BCCD01DED3BB10082A797 /* Resources */,
-				1997785C7ED08F783BB246A7 /* [CP] Embed Pods Frameworks */,
 				D1DFED893784A47002E7954C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -236,7 +235,6 @@
 				B69FC32E1DF68D40009DE65B /* Sources */,
 				B69FC32F1DF68D40009DE65B /* Frameworks */,
 				B69FC3301DF68D40009DE65B /* Resources */,
-				22106D8D5156A95D2362A139 /* [CP] Embed Pods Frameworks */,
 				DC4B293038174EF90C4F3922 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -281,6 +279,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,36 +326,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1997785C7ED08F783BB246A7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		22106D8D5156A95D2362A139 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AD9070F20E31A26D540430C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,16 +350,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-marker-grow/Pods-iOS-marker-grow-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D85EB93170B04568EBB725E1 /* [CP] Check Pods Manifest.lock */ = {
@@ -417,16 +386,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift-resources.sh",
 				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-marker-grow-swift/Pods-iOS-marker-grow-swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -678,7 +647,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "./iOS-marker-grow-swift/iOS_marker_grow_swift_bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -698,7 +667,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
 				SWIFT_OBJC_BRIDGING_HEADER = "./iOS-marker-grow-swift/iOS_marker_grow_swift_bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

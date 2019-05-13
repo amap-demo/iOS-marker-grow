@@ -38,7 +38,7 @@ class ViewController: UIViewController, MAMapViewDelegate {
         // Dispose of any resources that can be recreated.
     }
 
-    func actionAddAnnotation() {
+    @objc func actionAddAnnotation() {
         var randomPoint = CGPoint.zero
         randomPoint.x = CGFloat(Int(arc4random()) % Int(self.view.bounds.width - 100))
         randomPoint.y = CGFloat(Int(arc4random()) % Int(self.view.bounds.height - 200))
